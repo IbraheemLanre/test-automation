@@ -1,0 +1,20 @@
+{
+  "name": "cypress-online-tut",
+  "version": "1.0.0",
+  "description": "Cypress tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "build":"tsc"
+  },
+  "keywords": [],
+  "author": "Ibraheem",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "cypress": "^12.11.0",
+    "typescript": "^5.0.4"
+  }
+}
